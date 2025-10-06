@@ -30,6 +30,8 @@ You can find the scraping scripts inside each data folder. You can update the da
 - `event-data/` - S-Tier tournament events
 - `player-count-data/` - Daily CS:GO player counts
 
+<br>
+
 ## Project Structure
 
 **Notebooks:**
@@ -37,6 +39,8 @@ You can find the scraping scripts inside each data folder. You can update the da
 2. `2_process-data.ipynb` - Process and merge datasets
 3. `3_xgboost-training.ipynb` - XGBoost model training
 4. `4_lightgbm-training.ipynb` - LightGBM model training
+
+<br>
 
 ## Features
 
@@ -48,6 +52,8 @@ The models use 6 features to predict tomorrow's price:
 - `price_lag_3` - Price from 2 days ago
 - `Average_Players` - Daily average player count
 - `has_tournament` - S-Tier tournament indicator (0 or 1)
+
+<br>
 
 ## Models
 
@@ -65,6 +71,8 @@ Two gradient boosting models were trained:
 
 Both models achieve similar performance, but LightGBM gives more weight to player count and tournament events.
 
+<br>
+
 ## Usage
 
 To predict tomorrow's price, you need to provide:
@@ -76,6 +84,8 @@ To predict tomorrow's price, you need to provide:
 6. Tournament today (0 or 1)
 
 Example prediction code is included in the training notebooks.
+
+<br>
 
 ## Files
 
