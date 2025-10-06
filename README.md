@@ -7,6 +7,12 @@ The Steam market is one of the most underrated markets right now. Most people ou
 
 This project uses past price history, daily player count, and e-sport event data to predict tomorrow's case prices using machine learning. The model can predict prices for 50 different weapon cases.
 
+Below, you can see the price history of the case named **"Glove Case"**.
+
+![Glove Case Price History](https://github.com/user-attachments/assets/7ea78d3f-e44c-4449-a19e-d63b6faedbc4)
+
+
+<br>
 
 ## Dataset
 
