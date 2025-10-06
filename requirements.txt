@@ -1,0 +1,21 @@
+# Data Processing
+pandas
+numpy
+
+# Machine Learning
+xgboost
+lightgbm
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Web Scraping
+beautifulsoup4
+requests
+lxml
+
+# Jupyter
+jupyter
+ipykernel
